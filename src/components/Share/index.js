@@ -4,7 +4,7 @@ import H2 from '../H2';
 import Wrapper from './Wrapper';
 import ShareButton from './ShareButton';
 
-function Share({ title, url }) {
+function Share({ title, url, email }) {
   const encodedURL = encodeURI(url);
   const text = encodeURI(title);
   return (
@@ -73,7 +73,7 @@ function Share({ title, url }) {
         </svg>
       </ShareButton>
       <ShareButton
-        href={`mailto:?subject=${text}&body=${encodedURL}`}
+        href={`mailto:${email}?subject=${text}&body=${encodedURL}`}
         aria-label="Share by Email"
         rel="noopener"
       >

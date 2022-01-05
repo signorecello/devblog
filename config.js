@@ -1,17 +1,18 @@
 module.exports = {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
+  title: 'ZP Dev Blog', // Required
+  author: 'José Pedro Sousa', // Required
+  description: 'Full-stack Blockchain Developer',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald',
+    website: 'https://blog.zepedro.me',
+    github: 'https://github.com/signorecello',
+    twitter: 'https://twitter.com/jpedrosous',
+    linkedin: 'https://www.linkedin.com/in/jpedrosous/',
+    emailAddress: 'blog@zepedro.me'
   },
-  pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  pathPrefix: '/',
+  siteUrl: 'https://blog.zepedro.me',
 };

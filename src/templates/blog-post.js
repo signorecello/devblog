@@ -43,7 +43,7 @@ class BlogPostTemplate extends React.Component {
             <ArticleHeader>
               {post.frontmatter.featuredImage && (
                 <FeaturedImage
-                  sizes={post.frontmatter.featuredImage.childImageSharp.sizes}
+                  image={post.frontmatter.featuredImage}
                 />
               )}
               <h1>{post.frontmatter.title}</h1>
@@ -54,7 +54,7 @@ class BlogPostTemplate extends React.Component {
               <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </Article>
             {userConfig.showShareButtons && (
-              <Share url={url} title={post.frontmatter.title} />
+              <Share url={url} title={post.frontmatter.title} email={userConfig.social.emailAddress} />
             )}
           </Card>
 
@@ -95,8 +95,8 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         featuredImage {
           childImageSharp {
-            sizes(maxWidth: 850) {
-              ...GatsbyImageSharpSizes
+            fluid(maxWidth: 850) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
