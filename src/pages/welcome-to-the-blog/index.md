@@ -1,6 +1,6 @@
 ---
 title: Just some blog
-date: "2021-06-01"
+date: "2021-01-06"
 featuredImage: './featured.jpg'
 ---
 
