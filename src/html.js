@@ -1,6 +1,8 @@
 import React from 'react';
 
 import favicon from './favicon.ico';
+import "@fontsource/roboto";
+import GlobalStyle from './global-styles';
 
 export default class HTML extends React.Component {
   render() {
@@ -15,12 +17,10 @@ export default class HTML extends React.Component {
           />
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
+          <GlobalStyle />
           <div
             key={`body`}
             id="___gatsby"
