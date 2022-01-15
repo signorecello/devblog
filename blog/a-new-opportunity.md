@@ -1,7 +1,7 @@
 ---
 title: A new opportunity
 date: "2021-01-13"
-featuredImage: './featured.jpg'
+featuredImage: './assets/a-new-opportunity.jpg'
 ---
 
 As a species, we try to come up with tools that make up for our own inability to master our environment and our society. We can't implement a perfect democracy, for example. We can't produce our own energy without digging fossilized organic material. I'm always fascinated by these tools, as I believe they contain everything that makes us thinking machines.
@@ -14,7 +14,7 @@ One of these tools, in my view, is blockchain. However, the fact that Bitcoin wa
 
 This made people also quite conservative and reject change. They don't want to risk losing their money! Because of this. it's becoming more and more difficult to update the Bitcoin protocol to be what it is intended to be: an electronic cash system. However, it became a first project of a bigger set of tools that we, blockchain developers, are developing.
 
-![bitcoin](bitcoin.jpg)
+![bitcoin](./assets/bitcoin.jpg)
 
 ## Money, money, money
 
@@ -36,7 +36,7 @@ You can say this situation is dramatic, but it's a reality in a lot of countries
 
 However, if this kind of information was actually stored on a contract, it wouldn't be lost forever. The radical movement could chose to ignore it, but somewhere in the world there would be thousands of computers that say "I have that original information, and I couldn't change it even if I wanted to". 
 
-![north korea](north-korea.jpg)
+![north korea](./assets/north-korea.jpg)
 
 ## How far can we go?
 

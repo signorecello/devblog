@@ -9,7 +9,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
-    const blogPost = path.resolve('./src/templates/blog-post.js');
+    const blogPost = path.resolve('./src/pages/BlogTemplate.js');
     resolve(
       graphql(
         `
@@ -61,7 +61,7 @@ exports.createPages = ({ graphql, actions }) => {
           createPaginatedPages({
             edges: result.data.allMarkdownRemark.edges,
             createPage: createPage,
-            pageTemplate: 'src/templates/index.js',
+            pageTemplate: 'src/index.js',
             pageLength: userConfig.postsPerPage,
           });
 

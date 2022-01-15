@@ -1,7 +1,7 @@
 ---
 title: Just some blog
 date: "2021-01-06"
-featuredImage: './featured.jpg'
+featuredImage: './assets/welcome-to-the-blog.jpg'
 ---
 
 Well, I've been a dev for quite some time now. Although I did feel the urge to write about it sometimes, I never really started something. Here's by dev blog, read through to know a little bit more on how this came to be!
@@ -25,7 +25,7 @@ So this seems like a position I enjoy. I'm a jack of all trades, master of none!
 
 I'm a weird guy. I've been a geek for a long time, since we got our very first Compaq Presario PC with an amazing DVD player which was **the latest hit on the market**, with whooping 64Mb of RAM and a 8gb HDD. For several times I screwed up formatting the PC and upgrading it, having to leave the PC in perfect working condition for my sister's word processing needs.
 
-![CompaqPresario](compaq.jpg)
+![CompaqPresario](./assets/compaq.jpg)
 
 Anyway, one of the things I care the most is music, and that's eventually where my life lead me to. I invested thousands of hours of my life with my beautiful cello, and even got to study with some of the best teachers around. I graduated in Music and then became incredibly interested in teaching stuff, so I went down the path of Music Education.
 
@@ -48,4 +48,4 @@ However, don't expect a lot of technical things. I believe code is not the end, 
 
 ### Please give us a meme
 
-![No Meme For You](./nomeme.jpg)
+![No Meme For You](./assets/nomeme.jpg)
