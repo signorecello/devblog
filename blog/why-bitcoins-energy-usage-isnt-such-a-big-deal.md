@@ -21,13 +21,13 @@ This is calling _voting with your wallet_, and that's [why you shouldn't buy pro
 
 Now, to Bitcoin. People say that Bitcoin consumes more energy than Switzerland, which seems like a lot before you consider that pretty much every sector of our economy consumes more energy than Switzerland. This doesn't mean that it's OK, but it means that the comparison doesn't really tell us much:
 
-![Bitcoin consumption compared with other sectors](/assets/mtgzmduwmty1mduxotkxmzky.webp)
+![Bitcoin consumption compared with other sectors](./assets/mtgzmduwmty1mduxotkxmzky.webp)
 
 However, one property of Bitcoin is that it can be mined pretty much anywhere. You can't say the same for most of the other sectors, specially those who have no choice but to rely on fossil fuels, like aviation and construction. For those sectors, you can't choose your energy, and more importantly, can't choose where it comes from. But, by the way, if you buy an electric car you're probably funding the R&D for future eletric planes! 
 
 [If you live in Poland](https://www.bbc.com/news/world-radio-and-tv-17813431), your electric heater runs on coal and there's _nothing you can do about it_ . But guess what, it's not a good country to mine Bitcoin, because fossil fuel is incredibly expensive compared to green energies:
 
-![Energy Price Chart by Source](/assets/price_of_energy.png)
+![Energy Price Chart by Source](./assets/price_of_energy.png)
 
 Bitcoin mining is a business that suffers from three big risks:
 1. Hardware wear
